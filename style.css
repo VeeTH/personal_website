@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=SUSE|Nunito');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
 body {
     background: fixed;
@@ -13,21 +14,23 @@ body {
     line-height: 1.5rem;
 }
 
-footer {
-    text-align: justify;
-    align-items: center;
-    justify-content: center;
-}
-
 .div_flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.div_grid {
+    display: inline-grid;
+    grid-template-columns: minmax(0,5fr) minmax(0,5fr);
+    max-width: 100%;
+    width: 1500px;
+    gap: 1rem;
+}
+
 .div_contents_grid {
     display: inline-grid;
-    grid-template-columns: minmax(0,3.5fr) minmax(0,7fr);
+    grid-template-columns: minmax(0,3fr) minmax(0,7fr);
     max-width: 100%;
     width: 1500px;
     gap: 1rem;
@@ -40,19 +43,9 @@ footer {
     gap: 20px;
 }
 
-.div_contents_flex_sticky {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    position: sticky;
-    top: 0;
-}
-
-
 .div_contents_individual {
     background-color:#0009;
-    border:1px solid rgba(255,255,255,.1333333333);
+    border:5px solid rgba(255,255,255,.1333333333);
     box-sizing:border-box;
     border-radius:5px;
     padding:1.5rem;
@@ -63,14 +56,64 @@ footer {
     background-attachment:fixed
 }
 
-h1 {
+.div_marquee {
+    background-color:#0009;
+    border:2.5px solid rgba(255,255,255,.1333333333);
+    box-sizing:border-box;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-radius:5px;
+    color:#ddd;
+    resize:none;
+    width: 75%;
+    margin: 0 auto;
+    background:linear-gradient(to bottom,#0e141b99,#000c);
+    background-attachment:fixed;
+}
+
+.website_title {
+    font-size: 5em;
+    float: right;
+    text-shadow:1px 1px 15px #a71111, 1px 1px 15px #961919;
+}
+
+h1, .section_title {
     font-family: SUSE, sans-serif;
+    text-shadow:1px 1px 6.5px black, 1px 1px 6.5px #ccc;
+}
+
+b {
+    color:gray;
 }
 
 h2, h3, p {
-    font-family: Nunito, sans-serif;
+    font-family: Mukta, sans-serif;
+    font-weight: 400;
 }
 
 .current_page {
     color: firebrick;
+    font-weight: bold;
+    text-shadow:1px 1px 10px #6d1010, 1px 1px 10px #ccc;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:orange;
+    font-weight: bold;
+    text-shadow:1px 1px 10px #a17600, 1px 1px 10px #ccc;
+}
+
+div + div {
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    color: lightgray;
+    line-height: .75rem;
 }
