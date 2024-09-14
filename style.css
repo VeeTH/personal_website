@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=SUSE|Nunito');
+
+body {
+    background: fixed;
+    background-size: cover;
+    background-image: url(resources/site_bg.jpg);
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    line-height: 1.5rem;
+}
+
+footer {
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div_contents_grid {
+    display: inline-grid;
+    grid-template-columns: minmax(0,3.5fr) minmax(0,7fr);
+    max-width: 100%;
+    width: 1500px;
+    gap: 1rem;
+}
+
+.div_contents_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.div_contents_flex_sticky {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+}
+
+
+.div_contents_individual {
+    background-color:#0009;
+    border:1px solid rgba(255,255,255,.1333333333);
+    box-sizing:border-box;
+    border-radius:5px;
+    padding:1.5rem;
+    color:#ddd;
+    resize:none;
+    width:100%;
+    background:linear-gradient(to bottom,#0e141b99,#000c);
+    background-attachment:fixed
+}
+
+h1 {
+    font-family: SUSE, sans-serif;
+}
+
+h2, h3, p {
+    font-family: Nunito, sans-serif;
+}
+
+.current_page {
+    color: firebrick;
+}
