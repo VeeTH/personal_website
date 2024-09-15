@@ -4,6 +4,7 @@
 body {
     background: fixed;
     background-size: cover;
+    min-height: 98vh;
     background-image: url(resources/site_bg.jpg);
     color: white;
     
@@ -24,7 +25,7 @@ body {
     display: inline-grid;
     grid-template-columns: minmax(0,5fr) minmax(0,5fr);
     max-width: 100%;
-    width: 1500px;
+    width: 1400px;
     gap: 1rem;
 }
 
@@ -32,7 +33,7 @@ body {
     display: inline-grid;
     grid-template-columns: minmax(0,3fr) minmax(0,7fr);
     max-width: 100%;
-    width: 1500px;
+    width: 1400px;
     gap: 1rem;
 }
 
@@ -45,20 +46,25 @@ body {
 
 .div_contents_individual {
     background-color:#0009;
-    border:5px solid rgba(255,255,255,.1333333333);
+    border:5px solid rgba(223, 46, 46, 0.133);
     box-sizing:border-box;
     border-radius:5px;
     padding:1.5rem;
     color:#ddd;
     resize:none;
     width:100%;
-    background:linear-gradient(to bottom,#0e141b99,#000c);
-    background-attachment:fixed
+    white-space: normal;
+    background:linear-gradient(to bottom,#181a1b99,#000c);
+    background-attachment:fixed;
+}
+
+#right_content {
+    line-height: 2rem !important;
 }
 
 .div_marquee {
     background-color:#0009;
-    border:2.5px solid rgba(255,255,255,.1333333333);
+    border:3.5px solid rgba(223, 46, 46, 0.133);
     box-sizing:border-box;
     padding-top: 15px;
     padding-bottom: 5px;
@@ -67,7 +73,7 @@ body {
     resize:none;
     width: 75%;
     margin: 0 auto;
-    background:linear-gradient(to bottom,#0e141b99,#000c);
+    background:linear-gradient(to bottom,#181a1b99,#000c);
     background-attachment:fixed;
 }
 
@@ -83,7 +89,7 @@ h1, .section_title {
 }
 
 b {
-    color:gray;
+    color: lightcoral;
 }
 
 h2, h3, p {
@@ -116,4 +122,19 @@ div + div {
     text-align: center;
     color: lightgray;
     line-height: .75rem;
+}
+
+.details {
+    display: none;
+    font-family: Mukta, sans-serif;
+    font-weight: 400;
+    text-indent: 50px;
+    overflow: hidden;
+}
+
+.project {
+    font-family: Mukta, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
 }

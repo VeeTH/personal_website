@@ -11,8 +11,8 @@ class SocialsList extends HTMLElement {
       <h3>TikTok</h3>
       <h3>Instagram</h3>
       <h3>GitHub</h3>
-      <h3>Discord: VeeTHis</h3>
       <h3>Bluesky</h3>
+      <h3>Discord: VeeTHis</h3>
     `;
   }
 }
