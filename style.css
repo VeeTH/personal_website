@@ -6,6 +6,7 @@ body {
     background-size: cover;
     min-height: 98vh;
     background-image: url(resources/site_bg.jpg);
+    background-color:rgb(32, 10, 10);
     color: white;
     
     display: flex;
@@ -71,7 +72,7 @@ body {
     border-radius:5px;
     color:#ddd;
     resize:none;
-    width: 75%;
+    width: 75rem;
     margin: 0 auto;
     background:linear-gradient(to bottom,#181a1b99,#000c);
     background-attachment:fixed;
@@ -137,4 +138,14 @@ div + div {
     font-weight: 400;
     cursor: pointer;
     user-select: none;
+}
+
+.credit_link {
+    color: lightcoral !important;
+    text-decoration: none !important;
+}
+
+.credit_link:hover {
+    text-shadow: none !important;
+    text-decoration: underline !important;
 }
