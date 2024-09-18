@@ -67,7 +67,7 @@ body {
     background-color:#0009;
     border:3.5px solid rgba(223, 46, 46, 0.133);
     box-sizing:border-box;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 5px;
     border-radius:5px;
     color:#ddd;
@@ -115,10 +115,6 @@ a:hover {
     text-shadow:1px 1px 10px #a17600, 1px 1px 10px #ccc;
 }
 
-div + div {
-    margin-bottom: 20px;
-}
-
 .footer {
     text-align: center;
     color: lightgray;
@@ -138,6 +134,10 @@ div + div {
     font-weight: 400;
     cursor: pointer;
     user-select: none;
+}
+
+.project_link {
+    text-decoration: underline !important;
 }
 
 .credit_link {

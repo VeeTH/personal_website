@@ -6,7 +6,7 @@ class SocialsList extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <h1><b>Socials</b></h1>
-      <h3><img src="resources/icons/YouTube.svg">YouTube</h3>
+      <h3><img src="resources/icons/YouTube.svg" width=25rem>YouTube</h3>
       <h3>Reddit</h3>
       <h3>TikTok</h3>
       <h3>Instagram</h3>

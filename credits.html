@@ -10,7 +10,6 @@
         <script src="resources/components/socials.js" type="text/javascript" defer></script> 
         <script src="resources/components/footer.js" type="text/javascript" defer></script> 
         <script src="resources/components/sub_title.js" type="text/javascript" defer></script>
-        <script src="resources/scripts/autoplay_enable.js" type="text/javascript" defer></script>
         <script src="main.js" type="text/javascript" defer></script>
     </head>
 
@@ -38,6 +37,13 @@
                         <div class="div_contents_individual">
                             <socials-list></socials-list>
                         </div>
+                        <div class="div_contents_individual">
+                            <iframe width="180" height="180" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>       
+                            <div style="width: 150px; /* <- Set any width you'd like! */ float: right;">
+                              <script src="https://jeith.com/assets/webring/wii-ring.js"></script>
+                              <wii-ring site="YOUR URL HERE" variant="wii-mini"></wii-ring>
+                            </div>
+                        </div>
                     </div>
                     <div id="right_content" class="div_contents_flex">
                         <div class="div_contents_individual">
@@ -45,6 +51,7 @@
                             <h3><b><a href="https://kat.nekoweb.org/" target="_blank" class="credit_link">katspace:</a></b> inspiration for site layout</h3>
                             <h3><b><a href="https://thinliquid.dev" target="_blank" class="credit_link">thinliquid:</a></b> deploy2nekoweb</h3>
                             <h3><b><a href="https://h3.neocities.org/" target="_blank" class="credit_link">H3:</a></b> audio autoplay JS script</h3>
+                            <!--<h3><b><a href="https://adryd.com/" target="_blank" class="credit_link">adryd:</a></b> oneko.js</h3>-->
                             <h3><b>various sources:</b> buttons</h3>
                         </div>
                         <div class="div_contents_individual">
@@ -55,7 +62,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="button_container" class="div_marquee">
+                <div id="button_container" class="div_marquee" style="margin-top: 20px !important;">
                     <button-list></button-list>
                 </div>
             </div>     

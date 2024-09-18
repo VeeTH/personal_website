@@ -12,7 +12,13 @@ class ButtonList extends HTMLElement {
             <a href="https://dimden.dev/" target="_blank"><img src="https://dimden.dev/services/images/88x31.gif"></a>
             <a href="https://milkyway.moe/" target="_blank"><img src="https://milkyway.moe/milkybuttons/milkybtn.gif"></a>
             <a href="https://meteor.nekoweb.org/" target="_blank"><img src="https://meteor.nekoweb.org/button.gif"></a>
+            <a href="https://max.nekoweb.org/" target="_blank"><img src="https://max.nekoweb.org/images/button.png" alt="max's apartment"></a> 
+            <a href="https://jeith.com/" target="_blank"><img src="https://neocities.jeith.com/jeith.gif" alt="jeith"></a>
+            <a href="https://nineret.nekoweb.org/" target="_blank"><img src="https://nineret.nekoweb.org/art/link.png"></a>
+            <a href="https://boxy.neocities.org/" target="_blank"><img src="https://boxy.neocities.org/images/boxBut.png" alt="boxy"></a>
+            <a href="https://sillyKitty136.neocities.org" target="_blank"><img src="https://sillyKitty136.neocities.org/Button.gif"></a>
             <a href="https://modarchive.org/" target="_blank"><img src="resources/buttons/modarchive.png"></a>
+            <a href="https://www.sheepit-renderfarm.com" target="_blank"><img src="resources/buttons/sheepit.gif"></a>
 
             <img src="resources/buttons/queer-coded.png" style="padding-left: 50px;">
             <img src="resources/buttons/programmingsocks.gif" width="8.75%">
@@ -23,6 +29,7 @@ class ButtonList extends HTMLElement {
             <a href="https://reddit.com/r/touhou/comments/1f5r5i8/brace_yourself_cirno" target="_blank"><img src="resources/buttons/cirnosys.png"></a>
             <a href="https://www.youtube.com/watch?v=eRbnVqTGLUc" target="_blank"><img src="resources/buttons/viburib.gif"></a> 
             <img src="resources/buttons/mug.png">
+            <a href="https://www.youtube.com/watch?v=4TVik_1kAjk" target="_blank"><img src="resources/buttons/desp-anim.gif"></a>
          
             <a href="https://en.wikipedia.org/wiki/Windows_10" target="_blank"><img src="resources/buttons/made_with_windows.gif" style="padding-left: 50px;"></a>
             <a href="https://www.mozilla.org/firefox/" target="_blank"><img src="resources/buttons/firefox.gif"></a>
