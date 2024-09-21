@@ -17,6 +17,10 @@ class ButtonList extends HTMLElement {
             <a href="https://nineret.nekoweb.org/" target="_blank"><img src="https://nineret.nekoweb.org/art/link.png"></a>
             <a href="https://boxy.neocities.org/" target="_blank"><img src="https://boxy.neocities.org/images/boxBut.png" alt="boxy"></a>
             <a href="https://sillyKitty136.neocities.org" target="_blank"><img src="https://sillyKitty136.neocities.org/Button.gif"></a>
+            <a href="https://thesoupsite.neocities.org/" target="_blank" "><img src="https://thesoupsite.neocities.org/img/soupbutton2.gif" width="88px" height="31px"></a>
+            <a href="https://kirsvantas.com" target="_blank"><img src="https://kirsvantas.com/buttons/kirsvantas.gif" alt="https://kirsvantas.com"></a>
+            <a href="https://skruffy64.neocities.org/" target="_blank"><img src="resources/buttons/skruffy_64.gif"></a>
+            <a href="https://cadnomori.neocities.org/" target="_blank"><img src="https://cadnomori.neocities.org/banners/yokobanner.png"></a>
             <a href="https://modarchive.org/" target="_blank"><img src="resources/buttons/modarchive.png"></a>
             <a href="https://www.sheepit-renderfarm.com" target="_blank"><img src="resources/buttons/sheepit.gif"></a>
 
@@ -34,7 +38,9 @@ class ButtonList extends HTMLElement {
             <a href="https://en.wikipedia.org/wiki/Windows_10" target="_blank"><img src="resources/buttons/made_with_windows.gif" style="padding-left: 50px;"></a>
             <a href="https://www.mozilla.org/firefox/" target="_blank"><img src="resources/buttons/firefox.gif"></a>
             <a href="https://ublockorigin.com/" target="_blank"><img src="resources/buttons/ublock-now.png"></a>
-            <img src="resources/buttons/chrome.gif" style="padding-right: 50px;">
+            <img src="resources/buttons/chrome.gif">
+            <img src="resources/buttons/webp.gif">
+            <img src="resources/buttons/copyfloppy.gif" style="padding-right: 50px;">
             <!--<img src="resources/buttons/nft.gif">
             <img src="resources/buttons/keep-the-web-free.gif" style="padding-right: 50px;">-->            
         </marquee>
