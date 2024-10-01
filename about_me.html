@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Vee's Domain - About Me</title>
+        <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+        <link href="favicon.ico" rel="icon" type="image/x-icon">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="resources/components/buttons.js" type="text/javascript" defer></script> 
+        <script src="resources/components/socials.js" type="text/javascript" defer></script> 
+        <script src="resources/components/footer.js" type="text/javascript" defer></script> 
+        <script src="resources/components/sub_title.js" type="text/javascript" defer></script>
+        <script src="main.js" type="text/javascript" defer></script>
+    </head>
+
+    <body>
+        <div style="display: contents">
+            <div id="title" class="div_grid">
+                <div style="text-shadow:1px 1px 10px #a71111, 1px 1px 10px #961919;">
+                    <sub-title></sub-title>
+                </div>
+                <div>
+                    <h1 class="website_title">Vee's Domain</h1>
+                </div>
+            </div>
+            <div id="content">
+                <div id="main_content" class="div_contents_grid">
+                    <div id="left_content" class="div_contents_flex">
+                        <div class="div_contents_individual">
+                            <h1><b>Navigation</b></h1>
+                            <h3 class="navbar"><a href="index.html">Home</a></h3>
+                            <h3 class="current_page">[ About Me ]</h3>
+                            <h3 class="navbar"><a href="under_construction.html">Blog</a></h3>
+                            <h3 class="navbar"><a href="projects.html"></a>Projects</h3>
+                            <h3 class="navbar"><a href="credits.html">Credits</a></h3>
+                        </div>
+                        <div class="div_contents_individual">
+                            <socials-list></socials-list>
+                        </div>
+                        <div class="div_contents_individual">
+                            <iframe width="180" height="180" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>       
+                            <div style="width: 130px; /* <- Set any width you'd like! */ float: right;">
+                              <script src="https://jeith.com/assets/webring/wii-ring.js"></script>
+                              <wii-ring site="YOUR URL HERE" variant="wii-mini"></wii-ring>
+                            </div>
+                            <div id='furryring'>
+                                <script type="text/javascript" src="https://furryring.neocities.org/onionring-variables.js"></script>
+                                <script type="text/javascript" src="https://furryring.neocities.org/onionring-widget.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="right_content" class="div_contents_flex">
+                        <div class="div_contents_individual">
+                            <h2 class="section_title"><b>About Me</b></h2>
+                            <h3>Welcome to my About Me page! This goes into much more depth about the personal side of me than the Home page.</h3>
+                        </div>
+                        <div class="div_contents_grid" style="grid-template-columns: minmax(0,55fr) minmax(0,45fr) !important;">
+                            <div class="div_contents_individual">
+                                <h2 class="section_title"><b>Interests</b></h2>                                
+                            </div>
+                            <div class="div_contents_individual">
+                                <h2 class="section_title"><b>Ships</b></h2>                                
+                            </div>
+                        </div>
+                        <div class="div_contents_grid" style="grid-template-columns: minmax(0,45fr) minmax(0,55fr) !important;">
+                            <div class="div_contents_individual">
+                                <h2 class="section_title"><b>Placeholder</b></h2>                                
+                            </div>
+                            <div class="div_contents_individual">
+                                <h2 class="section_title"><b>Placeholder</b></h2>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="button_container" class="div_marquee" style="margin-top: 20px !important;">
+                    <button-list></button-list>
+                </div>
+            </div>     
+        </div>
+        <footer class="footer">
+            <site-footer></site-footer>
+        </footer>
+    </body>
+</html>
