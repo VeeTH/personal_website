@@ -59,6 +59,21 @@ body {
     background-attachment:fixed;
 }
 
+.div_contents_navigation {
+    background-color:#0009;
+    border:4px solid rgba(223, 46, 46, 0.133);
+    box-sizing:border-box;
+    border-radius:5px;
+    padding:0px;
+    color:#ddd;
+    resize:none;
+    width:70rem;
+    height:3.5rem;
+    white-space: normal;
+    background:linear-gradient(to bottom,#181a1b99,#000c);
+    background-attachment:fixed;
+}
+
 #right_content {
     line-height: 1.75rem !important;
 }
@@ -104,6 +119,11 @@ h2, h3, p {
     text-shadow:1px 1px 10px #6d1010, 1px 1px 10px #ccc;
 }
 
+.navbar {
+    position: absolute;
+    top: 160px;
+}
+
 a {
     color:white;
     text-decoration: none;
@@ -113,6 +133,13 @@ a:hover {
     color:orange;
     font-weight: bold;
     text-shadow:1px 1px 10px #a17600, 1px 1px 10px #ccc;
+}
+
+ul > li {
+    display: inline-block;
+    margin: 56px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .footer {
