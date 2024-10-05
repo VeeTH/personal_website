@@ -6,12 +6,12 @@ class SocialsList extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <h1><b>Socials</b></h1>
-      <h3><img src="resources/icons/YouTube.svg" width=25rem>YouTube</h3>
-      <h3>Reddit</h3>
-      <h3>TikTok</h3>
-      <h3>Instagram</h3>
-      <h3>GitHub</h3>
-      <h3>Bluesky</h3>
+      <h3><img src="resources/icons/YouTube.svg" width=25rem><a href="https://youtube.com/c/veethis" target="_blank">YouTube</a></h3>
+      <h3><a href="https://reddit.com/u/veethis" target="_blank">Reddit</a></h3>
+      <h3><a href="https://tiktok.com/@veethis" target="_blank">TikTok</a></h3>
+      <h3><a href="https://instagram.com/vee_this" target="_blank">Instagram</a></h3>
+      <h3><a href="https://github.com/VeeTH" target="_blank">GitHub</a></h3>
+      <h3><a href="https://bsky.app/profile/veethis.bsky.social" target="_blank">Bluesky</a></h3>
       <h3>Discord: VeeTHis</h3>
     `;
   }

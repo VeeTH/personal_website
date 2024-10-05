@@ -21,7 +21,9 @@ class ButtonList extends HTMLElement {
             <a href="https://kirsvantas.com" target="_blank"><img src="https://kirsvantas.com/buttons/kirsvantas.gif" alt="https://kirsvantas.com"></a>
             <a href="https://skruffy64.neocities.org/" target="_blank"><img src="resources/buttons/skruffy_64.gif"></a>
             <a href="https://cadnomori.neocities.org/" target="_blank"><img src="https://cadnomori.neocities.org/banners/yokobanner.png"></a>
-            <a href="https://sorta.neocities.org" target="_blank"><img src="https://sorta.neocities.org/MySite.png"></a>
+            <a href="https://trademarkhell.net/" target="_blank"><img src="https://trademarkhell.net/tmsspecialhell.png"></a>
+            <a href="https://sleepycircus.neocities.org/" target="_blank"><img src="https://sleepycircus.neocities.org/button.gif"></a>
+            <a href="https://freecatpics.nekoweb.org/" target="_blank"><img src="resources/buttons/freecatpics.png"></a>
             <a href="https://modarchive.org/" target="_blank"><img src="resources/buttons/modarchive.png"></a>
             <a href="https://www.sheepit-renderfarm.com" target="_blank"><img src="resources/buttons/sheepit.gif"></a>
 
@@ -34,6 +36,7 @@ class ButtonList extends HTMLElement {
             <a href="https://reddit.com/r/touhou/comments/1f5r5i8/brace_yourself_cirno" target="_blank"><img src="resources/buttons/cirnosys.png"></a>
             <a href="https://www.youtube.com/watch?v=eRbnVqTGLUc" target="_blank"><img src="resources/buttons/viburib.gif"></a> 
             <img src="resources/buttons/mug.png">
+            <img src="resources/buttons/virtualinsanity.gif">
             <a href="https://www.youtube.com/watch?v=4TVik_1kAjk" target="_blank"><img src="resources/buttons/desp-anim.gif"></a>
          
             <a href="https://en.wikipedia.org/wiki/Windows_10" target="_blank"><img src="resources/buttons/made_with_windows.gif" style="padding-left: 50px;"></a>

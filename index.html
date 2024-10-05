@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Vee's Domain - Home</title>
+        <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
         <link href="style.css" rel="stylesheet" type="text/css" media="all">
         <link href="favicon.ico" rel="icon" type="image/x-icon">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -10,6 +11,7 @@
         <script src="resources/components/socials.js" type="text/javascript" defer></script> 
         <script src="resources/components/footer.js" type="text/javascript" defer></script>
         <script src="resources/components/sub_title.js" type="text/javascript" defer></script>
+        <script src="resources/components/navbar.js" type="text/javascript" defer></script>
         <script src="main.js" type="text/javascript" defer></script>
     </head>
 
@@ -24,25 +26,28 @@
                     <h1 class="website_title">Vee's Domain</h1>
                 </div>
             </div>
+            <div id="navigation_bar" class="div_flex" style="margin-bottom: 20px !important; margin-top: 20px !important;">
+                <div class="div_contents_navigation">
+                    <navi-bar></navi-bar>
+                </div>
+            </div>
             <div id="content">
                 <div id="main_content" class="div_contents_grid">
                     <div id="left_content" class="div_contents_flex">
-                        <div class="div_contents_individual">
-                            <h1><b>Navigation</b></h1>
-                            <h3 class="current_page">[ Home ]</h3>
-                            <h3 class="navbar"><a href="under_construction.html">About Me</a></h3>
-                            <h3 class="navbar"><a href="under_construction.html">Blog</a></h3>
-                            <h3 class="navbar"><a href="projects.html">Projects</a></h3>
-                            <h3 class="navbar"><a href="credits.html">Credits</a></h3>
-                        </div>
+                        <h1><b>Home</b></h1>
                         <div class="div_contents_individual">
                             <socials-list></socials-list>
                         </div>
-                        <div class="div_contents_individual">
-                            <iframe width="180" height="180" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>       
+                        <div class="div_contents_individual" style="height: 506px; overflow-y: auto;">
+                            <h1><b>Webrings</b></h1>
+                            <iframe width="180" height="180" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>        
                             <div style="width: 130px; /* <- Set any width you'd like! */ float: right;">
                               <script src="https://jeith.com/assets/webring/wii-ring.js"></script>
                               <wii-ring site="YOUR URL HERE" variant="wii-mini"></wii-ring>
+                            </div>
+                            <div id='furryring'>
+                                <script type="text/javascript" src="https://furryring.neocities.org/onionring-variables.js"></script>
+                                <script type="text/javascript" src="https://furryring.neocities.org/onionring-widget.js"></script>
                             </div>
                         </div>
                     </div>
@@ -65,9 +70,9 @@
                                 <!--<iframe src="http://stonedcookiegaming.github.io/Commits-Widget/?username=VeeTH&repo=personal_website&limit=10" allowtransparency="true" frameborder="0" scrolling="no" width="502px" height="252px"></iframe>-->
                             </div>
                             <div class="div_contents_individual">
-                                <h2 class="section_title"><b>Placeholder</b></h2>
-                                <img src="resources/placeholder.jpg" width=175px height=175px style="float: left; padding-right: 25px;">
-                                <h3>I'm gonna put something here at some point!</h3>
+                                <h2 class="section_title"><b>Song Spotlight</b></h2>
+                                <p>An underrated song I want to share. Changes regularly!</p>
+                                <iframe width="370" height="210" src="https://www.youtube.com/embed/BJilwNk1zsM?si=vsRJHwV0we_nvEP_" frameborder="0"></iframe>
                             </div>
                         </div>
                     </div>
