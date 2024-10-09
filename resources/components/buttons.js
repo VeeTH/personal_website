@@ -23,6 +23,7 @@ class ButtonList extends HTMLElement {
             <a href="https://cadnomori.neocities.org/" target="_blank"><img src="https://cadnomori.neocities.org/banners/yokobanner.png"></a>
             <a href="https://trademarkhell.net/" target="_blank"><img src="https://trademarkhell.net/tmsspecialhell.png"></a>
             <a href="https://sleepycircus.neocities.org/" target="_blank"><img src="https://sleepycircus.neocities.org/button.gif"></a>
+            <a href="https://des.neocities.org/" target="_blank"><img src="resources/buttons/des.gif"></a>
             <a href="https://freecatpics.nekoweb.org/" target="_blank"><img src="resources/buttons/freecatpics.png"></a>
             <a href="https://modarchive.org/" target="_blank"><img src="resources/buttons/modarchive.png"></a>
             <a href="https://www.sheepit-renderfarm.com" target="_blank"><img src="resources/buttons/sheepit.gif"></a>
@@ -39,7 +40,8 @@ class ButtonList extends HTMLElement {
             <img src="resources/buttons/virtualinsanity.gif">
             <a href="https://www.youtube.com/watch?v=4TVik_1kAjk" target="_blank"><img src="resources/buttons/desp-anim.gif"></a>
          
-            <a href="https://en.wikipedia.org/wiki/Windows_10" target="_blank"><img src="resources/buttons/made_with_windows.gif" style="padding-left: 50px;"></a>
+            <a href="https://ruffle.rs/" target="_blank"><img src="resources/buttons/ruffle.png" style="padding-left: 50px;"></a>
+            <a href="https://en.wikipedia.org/wiki/Windows_10" target="_blank"><img src="resources/buttons/made_with_windows.gif"></a>
             <a href="https://www.mozilla.org/firefox/" target="_blank"><img src="resources/buttons/firefox.gif"></a>
             <a href="https://ublockorigin.com/" target="_blank"><img src="resources/buttons/ublock-now.png"></a>
             <img src="resources/buttons/chrome.gif">
