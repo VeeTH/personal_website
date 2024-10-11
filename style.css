@@ -215,3 +215,22 @@ body.webrings_widget h1 {
 body.webrings_widget div {
     text-align: center;
 }
+
+/* Vocaloid shrine styles */
+body.vocaloid_shrine {
+    background-image: url(resources/vocaloid_bg.jpg) !important;
+}
+
+body.vocaloid_shrine img {
+    /* clear: both; */
+}
+
+body.vocaloid_shrine #main_content h2 {
+    line-height: 2rem;
+}
+
+body.vocaloid_shrine .div_contents_individual {
+    background-color:#0009;
+    border:4px solid rgba(227, 126, 10, 0.133);
+    background:linear-gradient(to bottom,#870d0499,rgba(87, 68, 7, 0.8));
+}

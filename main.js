@@ -5,3 +5,19 @@ $(function() {
         $(this).parent().find('.details').slideToggle(500);
     });
 });
+
+var isPlaying = true;
+
+$('#toggle_bg_music').click(function(){
+    $('.yt_player_iframe').each(function(){
+        if (isPlaying == true){
+            $('.yt_player_iframe').get(0).contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}','*');
+            isPlaying = false;
+            document.querySelector('#toggle_bg_music').innerHTML = "Play background music";
+          } else {
+            $('.yt_player_iframe').get(0).contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}','*');
+            isPlaying = true;
+            document.querySelector('#toggle_bg_music').innerHTML = "Pause background music";
+          }          
+    });
+});
