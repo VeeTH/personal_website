@@ -23,6 +23,7 @@ class ButtonList extends HTMLElement {
             <a href="https://cadnomori.neocities.org/" target="_blank"><img src="https://cadnomori.neocities.org/banners/yokobanner.png"></a>
             <a href="https://trademarkhell.net/" target="_blank"><img src="https://trademarkhell.net/tmsspecialhell.png"></a>
             <a href="https://sleepycircus.neocities.org/" target="_blank"><img src="https://sleepycircus.neocities.org/button.gif"></a>
+            <a href="https://adilene.net/" target="_blank"><img src="https://adilene.net/images/sitebutton.gif"></a>
             <a href="https://des.neocities.org/" target="_blank"><img src="/resources/buttons/des.gif"></a>
             <a href="https://freecatpics.nekoweb.org/" target="_blank"><img src="/resources/buttons/freecatpics.png"></a>
             <a href="https://modarchive.org/" target="_blank"><img src="/resources/buttons/modarchive.png"></a>
@@ -30,8 +31,9 @@ class ButtonList extends HTMLElement {
 
             <img src="/resources/buttons/queer-coded.png" style="padding-left: 50px;">
             <img src="/resources/buttons/programmingsocks.gif" width="8.75%">
-            <img src="/resources/buttons/femboy.gif" width="7.5%">
+            <img src="/resources/buttons/femboy.gif" width="7.3%">
             <img src="/resources/buttons/catboys-meow.gif">
+            <img src="/resources/buttons/drmario.gif">
             <img src="/resources/buttons/jesus.png">
             <a href="https://www.youtube.com/watch?v=qpFUWNrjFUw" target="_blank"><img src="/resources/buttons/miku.gif"></a>
             <a href="https://necoarc.dev/" target="_blank"><img src="/resources/buttons/necoarc.png"></a>

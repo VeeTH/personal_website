@@ -51,7 +51,7 @@ body {
     box-sizing:border-box;
     border-radius:5px;
     padding:1.5rem;
-    color:#ddd;
+    color: white;
     resize:none;
     width:100%;
     white-space: normal;
@@ -65,7 +65,7 @@ body {
     box-sizing:border-box;
     border-radius:5px;
     padding:0px;
-    color:#ddd;
+    color: white;
     resize:none;
     width:70rem;
     height:3.5rem;
@@ -144,7 +144,7 @@ ul > li {
 
 .footer {
     text-align: center;
-    color: lightgray;
+    color: white;
     line-height: .75rem;
 }
 
@@ -175,6 +175,21 @@ ul > li {
 .credit_link:hover {
     text-shadow: none !important;
     text-decoration: underline !important;
+}
+
+.codebox {
+    border:1px solid black;
+    background-color:rgba(0,0,0,0.4);
+    white-space: nowrap;
+    padding:1px;
+    font-size:0.9em;
+    display: inline-block;
+    scrollbar-width: thin;
+    scrollbar-color: grey black;
+    width: 53%;
+    overflow-x: scroll;
+    position: relative;
+    top: 15px;
 }
 
 /* Dropdown CSS */
@@ -219,10 +234,7 @@ body.webrings_widget div {
 /* Vocaloid shrine styles */
 body.vocaloid_shrine {
     background-image: url(resources/vocaloid_bg.jpg) !important;
-}
-
-body.vocaloid_shrine img {
-    /* clear: both; */
+    cursor: url(resources/cursors/vocaloid-fukase-normal.png), auto;
 }
 
 body.vocaloid_shrine #main_content h2 {
