@@ -78,6 +78,37 @@ body {
     line-height: 1.75rem !important;
 }
 
+#right_content table td + td { 
+    border-left:1px solid grey; 
+    padding-left: 5px;
+}
+
+#right_content table th + th {
+    border-left:3px solid grey; 
+    padding-left: 5px;
+}
+
+#right_content table th {
+    border-bottom:3px solid grey; 
+}
+
+#right_content table td {
+    border-bottom: 1px solid grey; 
+    padding-right: 5px;
+}
+
+#right_content table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+#interests li, #interests p {
+    list-style-position: outside;
+    text-indent: -0.1em;
+    padding-left: 1em;
+}
+
 .div_marquee {
     background-color:#0009;
     border:3.5px solid rgba(223, 46, 46, 0.133);
@@ -108,10 +139,11 @@ b {
     color: lightcoral;
 }
 
-h2, h3, p {
+h2, h3, p, tr {
     font-family: Mukta, sans-serif;
     font-weight: 400;
 }
+
 
 .current_page {
     color: firebrick;
@@ -135,7 +167,7 @@ a:hover {
     text-shadow:1px 1px 10px #a17600, 1px 1px 10px #ccc;
 }
 
-ul > li {
+.div_contents_navigation ul > li, #webmaster ul > li{
     display: inline-block;
     margin: 56px;
     margin-bottom: 0px;
