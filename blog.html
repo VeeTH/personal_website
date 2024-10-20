@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Vee's Domain - Blog</title>
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+        <link href="favicon.ico" rel="icon" type="image/x-icon">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="resources/components/buttons.js" type="text/javascript" defer></script> 
+        <script src="resources/components/socials.js" type="text/javascript" defer></script> 
+        <script src="resources/components/footer.js" type="text/javascript" defer></script> 
+        <script src="resources/components/sub_title.js" type="text/javascript" defer></script>
+        <script src="resources/components/navbar.js" type="text/javascript" defer></script>
+        <script src="main.js" type="text/javascript" defer></script>
+    </head>
+
+    <body>
+        <div style="display: contents">
+            <div id="title" class="div_grid">
+                <div style="text-shadow:1px 1px 10px #a71111, 1px 1px 10px #961919;">
+                    <sub-title></sub-title>
+                </div>
+                <div>
+                    <h1 class="website_title">Vee's Domain</h1>
+                </div>
+            </div>
+            <div id="navigation_bar" class="div_flex" style="margin-bottom: 20px !important; margin-top: 20px !important;">
+                <div class="div_contents_navigation">
+                    <navi-bar></navi-bar>
+                </div>
+            </div>
+            <div id="content">
+                <div id="main_content" class="div_contents_grid">
+                    <div id="left_content" class="div_contents_flex">
+                        <h1><b>Blog</b></h1>
+                        <div class="div_contents_individual">
+                            <socials-list></socials-list>
+                        </div>
+                        <div class="div_contents_individual" style="height: 100%; overflow-y: hidden;">
+                            <h1><b>Webrings</b></h1>
+                            <iframe src="resources/components/webrings.html" frameborder="0" height="90%" width="100%" allowtransparency="true" marginwidth="0"></iframe>
+                        </div>
+                    </div>
+                    <div id="right_content" class="div_contents_flex">
+                        <div class="div_contents_individual" id="webmaster">
+                            <iframe src="https://fuwari.vercel.app/" width="100%" height="1000px" frameborder="0"></iframe>
+                            <h3 style="margin-top: -10px; margin-bottom: -10px;">Powered by <a href="https://astro.build/" target="_blank"><img src="resources/astro-logo.png" alt="Astro" width="12%" style="position: relative; top: 13px; right: 5px;"></a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="button_container" class="div_marquee" style="margin-top: 20px !important;">
+                    <button-list></button-list>
+                </div>
+            </div>     
+        </div>
+        <footer class="footer">
+            <site-footer></site-footer>
+        </footer>
+    </body>
+</html>
