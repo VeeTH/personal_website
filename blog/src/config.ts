@@ -35,7 +35,7 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
   links: [
-    LinkPreset.Home,
+    LinkPreset.Posts,
     LinkPreset.Archive,
     {
       name: 'GitHub',
@@ -47,7 +47,7 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Lorem Ipsum',
+  name: 'VeeTHis',
   bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   links: [
     {
@@ -72,6 +72,6 @@ export const profileConfig: ProfileConfig = {
 
 export const licenseConfig: LicenseConfig = {
   enable: false,
-  name: 'CC BY-NC-SA 4.0',
-  url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+  name: 'CC BY-NC-ND 4.0',
+  url: 'https://creativecommons.org/licenses/by-nc-nd/4.0/',
 }

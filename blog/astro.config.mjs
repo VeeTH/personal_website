@@ -18,7 +18,7 @@ import { GithubCardComponent } from "./src/plugins/rehype-component-github-card.
 import {parseDirectiveNode} from "./src/plugins/remark-directive-rehype.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs"
 import {remarkExcerpt} from "./src/plugins/remark-excerpt.js";
-import relativeLinks from 'astro-relative-links';
+//import relativeLinks from 'astro-relative-links';
 
 const oklchToHex = (str) => {
   const DEFAULT_HUE = 250
@@ -33,10 +33,10 @@ const oklchToHex = (str) => {
 // https://astro.build/config
 export default defineConfig({
   site: "https://veesdomain.xyz",
-  base: "/",
-  trailingSlash: "always",
+  base: "/blog/dist",
+  trailingSlash: "never",
   integrations: [
-    relativeLinks(),
+    //relativeLinks(),
     tailwind(),
     swup({
       theme: false,
