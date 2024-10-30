@@ -5,6 +5,7 @@ body {
     background: fixed;
     background-size: cover;
     min-height: 98vh;
+    margin: 0px;
     background-image: url(resources/site_bg.jpg);
     background-color:rgb(32, 10, 10);
     color: white;
@@ -127,7 +128,11 @@ body {
 .website_title {
     font-size: 5em;
     float: right;
-    text-shadow:1px 1px 15px #a71111, 1px 1px 15px #961919;
+    text-shadow:1px 1px 15px #ff0000, 1px 1px 15px #aca6a6;
+}
+
+.sub_title {
+    text-shadow:1px 1px 10px #ff0000, 1px 1px 15px #aca6a6;
 }
 
 h1, .section_title {
@@ -152,8 +157,8 @@ h2, h3, p, tr {
 }
 
 .navbar {
-    position: absolute;
-    top: 160px;
+    position: relative;
+    bottom: 22px;
 }
 
 a {
@@ -221,7 +226,14 @@ a:hover {
     width: 53%;
     overflow-x: scroll;
     position: relative;
-    top: 15px;
+    top: 10px;
+}
+
+#vantajs-bg {
+    position:fixed;
+    z-index:-1;
+    width:100%;
+    height:100%;
 }
 
 /* Dropdown CSS */
@@ -235,9 +247,9 @@ a:hover {
     display: none;
     position: absolute;
     left: -3.5rem;
-    background-color: #181a1b99;
+    background-color: #181a1bdd;
     min-width: 180px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
     z-index: 1;
 }
 
