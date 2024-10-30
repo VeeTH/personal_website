@@ -1,5 +1,5 @@
 // Mobile redirection and link logic
-var url = new URLSearchParams(location.search);
+/* var url = new URLSearchParams(location.search);
 
 if (url.has("mobile", "true") == true){
     console.log("User is on mobile");
@@ -20,7 +20,7 @@ function appendMobileQuery(url) {
     const hasMobile = url.includes(queryParam);
 
     return hasMobile ? url : (hasQuery ? `${url}&${queryParam}` : `${url}?${queryParam}`);
-}
+} */
 
 // Disable Dark Reader dynamically
 const lock = document.createElement('meta');
