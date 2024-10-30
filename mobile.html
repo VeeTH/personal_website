@@ -3,21 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vee's Domain</title>
         <link href="style.css" rel="stylesheet" type="text/css" media="all">
 
         <script>
-            function goBack() {
-                window.history.go(-1);
+            function continueToSite() {
+                location.href = "https://veesdomain.xyz/";
             }
         </script>
     </head>
 
     <body>
-        <h1 style="text-align: center;">ERROR</h1>
-        <h3 style="text-align: center;">Unfortunately, this website doesn't function properly on mobile, as I don't know how to code responsive layouts.</h3>
-        <h3 style="text-align: center;">Please return on a computer.</h3>
-        <button onclick="goBack();">Go back</button>
+        <h1 style="text-align: center;">WARNING</h1>
+        <h3 style="text-align: center;">While this website works on mobile, it was not designed for it so you may not have the best experience.</h3>
+        <h3 style="text-align: center;">The mobile site just displays the desktop version because I don't know how to code responsive layouts.</h3>
+        <button onclick="continueToSite();">Continue</button>
     </body>
 </html>
