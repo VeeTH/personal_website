@@ -24,6 +24,7 @@ class ButtonList extends HTMLElement {
             <a href="https://trademarkhell.net/" target="_blank"><img src="https://trademarkhell.net/tmsspecialhell.png"></a>
             <a href="https://sleepycircus.neocities.org/" target="_blank"><img src="https://sleepycircus.neocities.org/button.gif"></a>
             <a href="https://adilene.net/" target="_blank"><img src="https://adilene.net/images/sitebutton.gif"></a>
+            <a href="https://ilovekazuha.nekoweb.org/" target="_blank"><img src="https://ilovekazuha.nekoweb.org/kazuhas/kazuhalink2.gif"></a>
             <a href="https://des.neocities.org/" target="_blank"><img src="/resources/buttons/des.gif"></a>
             <a href="https://freecatpics.nekoweb.org/" target="_blank"><img src="/resources/buttons/freecatpics.png"></a>
             <a href="https://modarchive.org/" target="_blank"><img src="/resources/buttons/modarchive.png"></a>
