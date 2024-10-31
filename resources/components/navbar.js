@@ -8,7 +8,7 @@ class NavigBar extends HTMLElement {
         <ul class="navbar">
           <li><h3><a href="/index.html">Home</a></h3></li>
           <li><h3><a href="/about_me.html">About Me</a></h3></li>
-          <li><h3><a href="/under_construction.html">Blog</a></h3></li>
+          <li><h3><a href="/blog.html">Blog</a></h3></li>
           <li class="dropdown">
             <h3><a href="#" class="navbar-settings">Shrines</a></h3>
             <div class="dropdown-content">
