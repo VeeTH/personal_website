@@ -50,3 +50,26 @@ $('#toggle_bg_music').click(function(){
           }          
     });
 });
+
+// License box modal
+$("#licensebox_btn").click(function () {
+    $("#licensebox").dialog({
+        title: "Copyright",
+        width: 1000,
+        draggable: false,
+        resizable: false,
+        modal: true,
+        open: function() {
+            $("body").css("overflow", "hidden");
+        },
+        close: function() {
+            $("body").css("overflow", "auto");
+        },
+    })
+});
+
+$(document).ready(function() {
+    $.get("/WIP-LICENSE.md", function(data) {
+        $("#licensebox_txt").html("<pre>" + data + "</pre>");
+    });
+});
