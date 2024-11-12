@@ -54,7 +54,7 @@ $('#toggle_bg_music').click(function(){
 // License box modal
 $("#licensebox_btn").click(function () {
     $("#licensebox").dialog({
-        title: "Copyright",
+        title: "GitHub License",
         width: 1000,
         draggable: false,
         resizable: false,
@@ -73,3 +73,11 @@ $(document).ready(function() {
         $("#licensebox_txt").html("<pre>" + data + "</pre>");
     });
 });
+
+// Fetch and display latest GitHub commit
+fetch('https://api.github.com/repos/VeeTH/personal_website/commits?per_page=1')
+  .then(res => res.json())
+  .then(res => {
+    document.getElementById('latest-commit').innerHTML = res[0].sha.slice(0, 7);
+    document.getElementById('commit-link').href = res[0].html_url;
+  })
