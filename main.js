@@ -55,7 +55,7 @@ $('#toggle_bg_music').click(function(){
 $("#licensebox_btn").click(function () {
     $("#licensebox").dialog({
         title: "GitHub License",
-        width: 1000,
+        width: 925,
         draggable: false,
         resizable: false,
         modal: true,
@@ -69,8 +69,13 @@ $("#licensebox_btn").click(function () {
 });
 
 $(document).ready(function() {
-    $.get("/WIP-LICENSE.md", function(data) {
-        $("#licensebox_txt").html("<pre>" + data + "</pre>");
+    $.get("/LICENSE.md", function(data) {
+        const licenseRepoLink = document.createElement("div");
+        licenseRepoLink.style.textAlign = "center";
+        licenseRepoLink.innerHTML = `<a href="https://github.com/VeeTH/personal_website" target="_blank" style="text-decoration: underline; font-weight: bold;">GitHub Repository link</a>`;
+        
+        document.getElementById('licensebox_txt').innerHTML = marked.parse(data);
+        document.getElementById('licensebox_txt').append(licenseRepoLink);
     });
 });
 

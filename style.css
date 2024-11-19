@@ -166,8 +166,8 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color:orange;
+a:hover, .ui-widget-content a:hover {
+    color:orange !important;
     font-weight: bold;
     text-shadow:1px 1px 10px #a17600, 1px 1px 10px #ccc;
 }
@@ -254,7 +254,7 @@ a:hover {
     color: white !important;
 }
 
-.ui-dialog-content {
+.ui-dialog-content, .ui-widget-content a {
     color: white !important;
 }
 
