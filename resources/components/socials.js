@@ -11,7 +11,7 @@ class SocialsList extends HTMLElement {
       <h3><a href="https://tiktok.com/@veethis" target="_blank">TikTok</a></h3>
       <h3><a href="https://instagram.com/vee_this" target="_blank">Instagram</a></h3>
       <h3><a href="https://github.com/VeeTH" target="_blank">GitHub</a></h3>
-      <h3><a href="https://bsky.app/profile/veethis.bsky.social" target="_blank">Bluesky</a></h3>
+      <h3><a href="https://bsky.app/profile/veesdomain.xyz" target="_blank">Bluesky</a></h3>
       <h3>Discord: <b>VeeTHis</b></h3>
       <h3><a href="https://www.roblox.com/users/38524636/profile" target="_blank">Roblox</a></h3>
       <h3><a href="https://www.anime-planet.com/users/VeeTHis" target="_blank">Anime Planet</a></h3>
