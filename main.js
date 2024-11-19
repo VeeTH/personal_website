@@ -55,7 +55,7 @@ $('#toggle_bg_music').click(function(){
 $("#licensebox_btn").click(function () {
     $("#licensebox").dialog({
         title: "GitHub License",
-        width: 925,
+        width: 915,
         draggable: false,
         resizable: false,
         modal: true,

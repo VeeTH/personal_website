@@ -6,7 +6,7 @@ Permission is hereby granted to use snippets of this code, excluding any linked 
 
 Permission is hereby granted to take inspiration from this code. "Inspiration" is defined as deriving ideas or concepts from this website's design or functionality without directly copying the code, and instead implementing it in your own way. Attribution is optional.
 
-========================================================================================
+===========================================================================
 
 **This license applies to the 'blog' subdirectory, excluding the 'blog/dist' and 'blog/src/content/posts' subdirectories:**
 
@@ -32,13 +32,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-========================================================================================
+===========================================================================
 
 **This license applies to the 'blog/src/content/posts' subdirectory:**
 
 All blog posts are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-========================================================================================
+===========================================================================
 
 **This license applies to the 'blog/dist' subdirectory:**
 
