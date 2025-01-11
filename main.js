@@ -18,10 +18,10 @@ function appendMobileQuery(url) {
     const queryParam = 'mobile=true';
     const hasQuery = url.includes('?');
     const hasMobile = url.includes(queryParam);
-
+    
     return hasMobile ? url : (hasQuery ? `${url}&${queryParam}` : `${url}?${queryParam}`);
-} */
-
+    } */
+   
 // Disable Dark Reader dynamically
 const lock = document.createElement('meta');
 lock.name = 'darkreader-lock';
@@ -31,8 +31,44 @@ document.head.appendChild(lock);
 $(function() {
     $(".project").on('click', function() { 
         $(this).parent().find('.details').slideToggle(500);
-    });
-});
+     });
+ });
+ 
+// Fetch and display latest GitHub commit
+fetch('https://api.github.com/repos/VeeTH/personal_website/commits?per_page=1')
+  .then(res => res.json())
+  .then(res => {
+    document.getElementById('latest-commit').innerHTML = res[0].sha.slice(0, 7);
+    document.getElementById('commit-link').href = res[0].html_url;
+  })
+
+// Randomize Song Spotlight
+window.onload = function() {
+    const spotlightVideos = [
+        {title: "Wonderful Opportunity - Bad Girl Online", url: "https://www.youtube.com/embed/BJilwNk1zsM"},
+        {title: "Wonderful Opportunity - NARAZUMONO", url: "https://www.youtube.com/embed/X3_bF_apB4M"},
+        {title: "Minami no Minami - HIMAN=HIDAI Shousoukyoku", url: "https://www.youtube.com/embed/7lwX62IN4Ig"},
+        {title: "Hiraumi - Zunda Mochi no Tsukurikata", url: "https://www.youtube.com/embed/gzYWlSkWFh4"},
+        {title: "PolyphonicBranch - Chameleon Love", url: "https://www.youtube.com/embed/sUQPiV0LSjY"},
+        //{title: "Mafumafu - Super Nuko World", url: "https://www.youtube.com/embed/HtCPMhyBzNU"},
+        {title: "Kashii Moimi - Välkommen", url: "https://www.youtube.com/embed/KfpVCrMgbwA"},
+        {title: "Mama Kay - Hurry! Hurry!", url: "https://www.youtube.com/embed/erRWHtZqw0s"},
+        {title: "I Got Back Pain - Jealous", url: "https://www.youtube.com/embed/2lPeHo-LMhY"}
+    ];
+
+    let lastIndex = parseInt(localStorage.getItem('lastSongIndex'), 10);
+    let spotlightIndex;
+
+    do {
+        spotlightIndex = Math.floor(Math.random() * spotlightVideos.length);
+    } while (spotlightIndex === lastIndex);
+
+    localStorage.setItem('lastSongIndex', spotlightIndex);
+    
+    const spotlightSong = spotlightVideos[spotlightIndex];
+    document.getElementById('song-spotlight-vid').src = spotlightSong.url;
+    document.getElementById('song-spotlight-title').textContent = spotlightSong.title;
+}
 
 // Toggle music on Shrine pages
 var isPlaying = true;
@@ -78,11 +114,3 @@ $(document).ready(function() {
         document.getElementById('licensebox_txt').append(licenseRepoLink);
     });
 });
-
-// Fetch and display latest GitHub commit
-fetch('https://api.github.com/repos/VeeTH/personal_website/commits?per_page=1')
-  .then(res => res.json())
-  .then(res => {
-    document.getElementById('latest-commit').innerHTML = res[0].sha.slice(0, 7);
-    document.getElementById('commit-link').href = res[0].html_url;
-  })
