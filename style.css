@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
+/* Animations */
+@keyframes slideInFromBottom {
+    0% {
+      transform: translateY(5%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+/* Main styling */
 body {
     background: fixed;
     background-size: cover;
@@ -15,6 +26,10 @@ body {
     text-align: justify;
     align-items: center;
     line-height: 1.5rem;
+}
+
+#content, footer {
+    animation: 0.25s ease-out 0s 1 slideInFromBottom;
 }
 
 .div_flex {
@@ -258,7 +273,7 @@ a:hover, .ui-widget-content a:hover {
     color: white !important;
 }
 
-/* Dropdown CSS */
+/* Dropdown styling */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -282,7 +297,7 @@ a:hover, .ui-widget-content a:hover {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Webrings widget HTML styles */
+/* Webrings widget HTML styling */
 body.webrings_widget {
     background-image: none;
     background-color: transparent;
@@ -297,10 +312,14 @@ body.webrings_widget div {
     text-align: center;
 }
 
-/* Vocaloid shrine styles */
+/* Vocaloid shrine styling */
 body.vocaloid_shrine {
     background-image: url(resources/vocaloid_bg.jpg) !important;
     cursor: url(resources/cursors/vocaloid-fukase-normal.png), auto;
+}
+
+body.vocaloid_shrine #content, body.vocaloid_shrine footer {
+    animation: none;
 }
 
 body.vocaloid_shrine #main_content h2 {
