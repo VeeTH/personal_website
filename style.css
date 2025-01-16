@@ -125,6 +125,7 @@ body {
     padding-left: 1em;
 }
 
+
 .div_marquee {
     background-color:#0009;
     border:3.5px solid rgba(223, 46, 46, 0.133);
@@ -227,6 +228,16 @@ a:hover, .ui-widget-content a:hover {
 .credit_link:hover {
     text-shadow: none !important;
     text-decoration: underline !important;
+}
+
+.social_link {
+    display: inline-grid;
+    grid-template-columns: minmax(0,0.5fr) minmax(0,5fr);
+    max-width: 100%;
+    width: 1250px;
+    gap: .75rem;
+    align-items: center;
+    line-height: 5px;
 }
 
 .codebox {
