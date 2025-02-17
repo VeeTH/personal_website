@@ -14,14 +14,11 @@ class ButtonList extends HTMLElement {
             <a href="https://meteor.nekoweb.org/" target="_blank"><img src="https://meteor.nekoweb.org/button.gif"></a>
             <a href="https://max.nekoweb.org/" target="_blank"><img src="https://max.nekoweb.org/images/button.png" alt="max's apartment"></a> 
             <a href="https://jeith.com/" target="_blank"><img src="https://neocities.jeith.com/jeith.gif" alt="jeith"></a>
-            <a href="https://nineret.nekoweb.org/" target="_blank"><img src="https://nineret.nekoweb.org/art/link.png"></a>
             <a href="https://boxy.neocities.org/" target="_blank"><img src="https://boxy.neocities.org/images/boxBut.png" alt="boxy"></a>
             <a href="https://sillyKitty136.neocities.org" target="_blank"><img src="https://sillyKitty136.neocities.org/Button.gif"></a>
             <a href="https://thesoupsite.neocities.org/" target="_blank" "><img src="https://thesoupsite.neocities.org/img/soupbutton2.gif" width="88px" height="31px"></a>
-            <a href="https://kirsvantas.com" target="_blank"><img src="https://kirsvantas.com/buttons/kirsvantas.gif" alt="https://kirsvantas.com"></a>
             <a href="https://skruffy64.neocities.org/" target="_blank"><img src="/resources/buttons/skruffy_64.gif"></a>
             <a href="https://cadnomori.neocities.org/" target="_blank"><img src="https://cadnomori.neocities.org/banners/yokobanner.png"></a>
-            <a href="https://trademarkhell.net/" target="_blank"><img src="https://trademarkhell.net/tmsspecialhell.png"></a>
             <a href="https://sleepycircus.neocities.org/" target="_blank"><img src="https://sleepycircus.neocities.org/button.gif"></a>
             <a href="https://adilene.net/" target="_blank"><img src="https://adilene.net/images/sitebutton.gif"></a>
             <a href="https://ilovekazuha.nekoweb.org/" target="_blank"><img src="https://ilovekazuha.nekoweb.org/kazuhas/kazuhalink2.gif"></a>
