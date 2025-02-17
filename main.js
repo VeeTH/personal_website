@@ -27,6 +27,13 @@ const lock = document.createElement('meta');
 lock.name = 'darkreader-lock';
 document.head.appendChild(lock);
 
+// Store last visited page
+$(function() {
+    if (!window.location.pathname.includes("/blog")) {
+        localStorage.setItem('lastVisitedPage', window.location.href);    
+    }
+});
+
 // Dropdown item functionality
 $(function() {
     $(".project").on('click', function() { 
