@@ -43,32 +43,44 @@ fetch('https://api.github.com/repos/VeeTH/personal_website/commits?per_page=1')
   })
 
 // Randomize Song Spotlight
-window.onload = function() {
-    const spotlightVideos = [
-        {title: "Wonderful Opportunity - Bad Girl Online", url: "https://www.youtube.com/embed/BJilwNk1zsM"},
-        {title: "Wonderful Opportunity - NARAZUMONO", url: "https://www.youtube.com/embed/X3_bF_apB4M"},
-        {title: "Minami no Minami - HIMAN=HIDAI Shousoukyoku", url: "https://www.youtube.com/embed/7lwX62IN4Ig"},
-        {title: "Hiraumi - Zunda Mochi no Tsukurikata", url: "https://www.youtube.com/embed/gzYWlSkWFh4"},
-        {title: "PolyphonicBranch - Chameleon Love", url: "https://www.youtube.com/embed/sUQPiV0LSjY"},
-        //{title: "Mafumafu - Super Nuko World", url: "https://www.youtube.com/embed/HtCPMhyBzNU"},
-        {title: "Kashii Moimi - Välkommen", url: "https://www.youtube.com/embed/KfpVCrMgbwA"},
-        {title: "Mama Kay - Hurry! Hurry!", url: "https://www.youtube.com/embed/erRWHtZqw0s"},
-        {title: "I Got Back Pain - Jealous", url: "https://www.youtube.com/embed/2lPeHo-LMhY"}
-    ];
+$(function() {
+    if (document.getElementById("index")) {
+        console.log("User is on index page");
+        
+        const spotlightVideos = [
+            {title: "Wonderful Opportunity - Bad Girl Online", url: "https://www.youtube.com/embed/BJilwNk1zsM"},
+            {title: "Wonderful Opportunity - NARAZUMONO", url: "https://www.youtube.com/embed/X3_bF_apB4M"},
+            {title: "Wonderful Opportunity - 鬼KYOKAN", url: "https://www.youtube.com/embed/w9o3ufZnR1Y"},
+            {title: "Wonderful Opportunity - 右NOU左NOU", url: "https://www.youtube.com/embed/z_n0ih9fVI4"},
+            {title: "Minami no Minami - HIMAN=HIDAI Shousoukyoku", url: "https://www.youtube.com/embed/7lwX62IN4Ig"},
+            {title: "Hiraumi - Zunda Mochi no Tsukurikata", url: "https://www.youtube.com/embed/gzYWlSkWFh4"},
+            {title: "PolyphonicBranch - Chameleon Love", url: "https://www.youtube.com/embed/sUQPiV0LSjY"},
+            {title: "mawashiba - Kidoai Liar", url: "https://www.youtube.com/embed/h6SnFFuxDN4"},
+            {title: "Mizenkei - タブロイド", url: "https://www.youtube.com/embed/8wN-WRQMVLk"},
+            {title: "Kusoinaka-P - Nekomimi Archive", url: "https://www.youtube.com/embed/7GxXhrePnA0"},
+            //{title: "Mafumafu - Super Nuko World", url: "https://www.youtube.com/embed/HtCPMhyBzNU"},
+            {title: "Kashii Moimi - Välkommen", url: "https://www.youtube.com/embed/KfpVCrMgbwA"},
+            {title: "Mama Kay - Hurry! Hurry!", url: "https://www.youtube.com/embed/erRWHtZqw0s"},
+            {title: "Ugly Duckling - I Won't Let It Die", url: "https://www.youtube.com/embed/epIDvFAn9EU"},
+            {title: "Ugly Duckling - Slow the Flow", url: "https://www.youtube.com/embed/uM78Y4NWN5Q"},
+            {title: "Ugly Duckling - Elevation", url: "https://www.youtube.com/embed/zcbSiqhJHcc"},
+            {title: "I Got Back Pain - Jealous", url: "https://www.youtube.com/embed/2lPeHo-LMhY"}
+        ];
 
-    let lastIndex = parseInt(localStorage.getItem('lastSongIndex'), 10);
-    let spotlightIndex;
+        let lastIndex = parseInt(localStorage.getItem('lastSongIndex'), 10);
+        let spotlightIndex;
+        
+        do {
+            spotlightIndex = Math.floor(Math.random() * spotlightVideos.length);
+        } while (spotlightIndex === lastIndex);
 
-    do {
-        spotlightIndex = Math.floor(Math.random() * spotlightVideos.length);
-    } while (spotlightIndex === lastIndex);
+        localStorage.setItem('lastSongIndex', spotlightIndex);
 
-    localStorage.setItem('lastSongIndex', spotlightIndex);
-    
-    const spotlightSong = spotlightVideos[spotlightIndex];
-    document.getElementById('song-spotlight-vid').src = spotlightSong.url;
-    document.getElementById('song-spotlight-title').textContent = spotlightSong.title;
-}
+        const spotlightSong = spotlightVideos[spotlightIndex];
+        document.getElementById('song-spotlight-vid').src = spotlightSong.url;
+        document.getElementById('song-spotlight-title').textContent = spotlightSong.title;
+    }
+});
 
 // Toggle music on Shrine pages
 var isPlaying = true;
