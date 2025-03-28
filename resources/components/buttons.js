@@ -5,15 +5,15 @@ class ButtonList extends HTMLElement {
   
   connectedCallback() {
     this.innerHTML = `
-        <marquee behavior="alternate" scrollamount="10">
+        <div class="js_marquee">
             <a href="https://obama.nekoweb.org/" target="_blank"><img src="https://obama.nekoweb.org/obbutton.png" alt="obama" style="padding-left: 50px;"></a> 
-            <a href="https://xtract.dev/" target="_blank"><img src="https://xtract.dev/buttons/button_space.png" alt="xtract's space"></a>
+            <!-- <a href="https://xtract.dev/" target="_blank"><img src="https://xtract.dev/buttons/button_space.png" alt="xtract's space"></a> -->
             <a href="https://thinliquid.dev" target="_blank"><img src="https://thinliquid.dev/thnlqd.png" alt="thinliquid's button" /></a>
-            <a href="https://dimden.dev/" target="_blank"><img src="https://dimden.dev/services/images/88x31.gif"></a>
+            <!-- <a href="https://dimden.dev/" target="_blank"><img src="https://dimden.dev/services/images/88x31.gif"></a> -->
             <!-- <a href="https://milkyway.moe/" target="_blank"><img src="https://milkyway.moe/milkybuttons/milkybtn.gif"></a> -->
             <a href="https://meteor.nekoweb.org/" target="_blank"><img src="https://meteor.nekoweb.org/button.gif"></a>
             <a href="https://max.nekoweb.org/" target="_blank"><img src="https://max.nekoweb.org/images/button.png" alt="max's apartment"></a> 
-            <a href="https://jeith.com/" target="_blank"><img src="https://neocities.jeith.com/jeith.gif" alt="jeith"></a>
+            <!-- <a href="https://jeith.com/" target="_blank"><img src="https://neocities.jeith.com/jeith.gif" alt="jeith"></a> -->
             <a href="https://boxy.neocities.org/" target="_blank"><img src="https://boxy.neocities.org/images/boxBut.png" alt="boxy"></a>
             <a href="https://sillyKitty136.neocities.org" target="_blank"><img src="https://sillyKitty136.neocities.org/Button.gif"></a>
             <a href="https://thesoupsite.neocities.org/" target="_blank" "><img src="https://thesoupsite.neocities.org/img/soupbutton2.gif" width="88px" height="31px"></a>
@@ -29,8 +29,8 @@ class ButtonList extends HTMLElement {
             <a href="https://www.roblox.com/users/38524636/profile" target="_blank"><img src="/resources/buttons/roblox.gif"></a>
 
             <img src="/resources/buttons/queer-coded.png" style="padding-left: 50px;">
-            <img src="/resources/buttons/programmingsocks.gif" width="8.75%">
-            <img src="/resources/buttons/femboy.gif" width="7.3%">
+            <img src="/resources/buttons/programmingsocks.gif" width=105rem>
+            <img src="/resources/buttons/femboy.gif" width=88rem>
             <img src="/resources/buttons/catboys-meow.gif">
             <img src="/resources/buttons/drmario.gif">
             <img src="/resources/buttons/jesus.png">
@@ -51,7 +51,7 @@ class ButtonList extends HTMLElement {
             <img src="/resources/buttons/copyfloppy.gif" style="padding-right: 50px;">
             <!--<img src="/resources/buttons/nft.gif">
             <img src="/resources/buttons/keep-the-web-free.gif" style="padding-right: 50px;">-->            
-        </marquee>
+        </div>
     `;
   }
 }
