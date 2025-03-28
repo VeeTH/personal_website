@@ -151,7 +151,7 @@ body {
     bottom: 11.75px;
     display: flex;
     gap: 4px;
-    animation: marquee 11s linear infinite alternate;
+    animation: marquee 15s linear infinite alternate;
 }
 
 .js_marquee img {
