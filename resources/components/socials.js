@@ -39,8 +39,8 @@ class SocialsList extends HTMLElement {
         <h3>Discord: <b>VeeTHis</b></h3>
       </div>
       <div class="social_link">
-        <img src="/resources/icons/Roblox.svg" width="25rem" style="zoom: 80%; position: relative; left: 4px;"></img>
-        <h3><a href="https://www.roblox.com/users/38524636/profile" target="_blank">Roblox</a></h3>
+        <img src="/resources/icons/Furtrack.png" width="25rem" style="zoom: 85%; position: relative; left: 4px;"></img>
+        <h3><a href="https://www.furtrack.com/user/VeeTHis" target="_blank">FurTrack</a></h3>
       </div>
     `;
   }
