@@ -72,7 +72,7 @@ body {
     width:100%;
     white-space: normal;
     background:linear-gradient(to bottom,#181a1b99,#000c);
-    background-attachment:fixed;
+    background-attachment:fixed;    
 }
 
 .div_contents_navigation {
@@ -243,6 +243,14 @@ a:hover, .ui-widget-content a:hover {
     user-select: none;
 }
 
+#project-list h3 {
+    cursor: pointer;
+}
+
+#project-list h3 b {
+    cursor: default;
+}
+
 .project_link {
     text-decoration: underline !important;
 }
@@ -261,10 +269,38 @@ a:hover, .ui-widget-content a:hover {
     display: inline-grid;
     grid-template-columns: minmax(0,0.5fr) minmax(0,5fr);
     max-width: 100%;
-    width: 1250px;
+    width: 100%;
     gap: .75rem;
     align-items: center;
-    line-height: 5px;
+    text-align: center;
+    
+    table-layout: fixed;
+    overflow: hidden;
+    max-width: 100%;
+    font-size: 90%;
+}
+
+.social_link td {
+    padding: 0px 5px 0px 5px;
+    width:50%
+}
+
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.social-item {
+    text-align: center;
+    line-height: 1px;
+}
+
+.social-item h3 {
+    line-height: 25px;
 }
 
 .codebox {
