@@ -20,7 +20,7 @@ class ButtonList extends HTMLElement {
             <a href="https://skruffy64.neocities.org/" target="_blank"><img src="/resources/buttons/skruffy_64.gif"></a>
             <a href="https://cadnomori.neocities.org/" target="_blank"><img src="https://cadnomori.neocities.org/banners/yokobanner.png"></a>
             <a href="https://sleepycircus.neocities.org/" target="_blank"><img src="https://sleepycircus.neocities.org/button.gif"></a>
-            <a href="https://adilene.net/" target="_blank"><img src="https://adilene.net/images/sitebutton.gif"></a>
+            <!-- <a href="https://adilene.net/" target="_blank"><img src="https://adilene.net/images/sitebutton.gif"></a> -->
             <a href="https://ilovekazuha.nekoweb.org/" target="_blank"><img src="https://ilovekazuha.nekoweb.org/kazuhas/kazuhalink2.gif"></a>
             <a href="https://des.neocities.org/" target="_blank"><img src="/resources/buttons/des.gif"></a>
             <a href="https://freecatpics.nekoweb.org/" target="_blank"><img src="/resources/buttons/freecatpics.png"></a>
