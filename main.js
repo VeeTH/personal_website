@@ -41,6 +41,18 @@ $(function() {
      });
  });
  
+// Project selection functionality
+$(function() {
+    $('#project-list h3').on('click', function() {
+      const file = $(this).data('file');  
+      $('#project-content').load(file, function(response, status, xhr) {
+        if (status == "error") {
+          $('#project-content').html("<h3>Error loading content. Please try again.</h3>");
+        }
+      });
+    });
+  });
+
 // Fetch and display latest GitHub commit
 fetch('https://api.github.com/repos/VeeTH/personal_website/commits?per_page=1')
   .then(res => res.json())
