@@ -64,7 +64,7 @@ class SocialsList extends HTMLElement {
       </div>
       <div class="social-item">
         <img src="/resources/icons/Xiaohongshu.svg" width="40rem"></img>
-        <h3><a href="https://www.xiaohongshu.com/user/profile/6784b288000000000403ca40" target="_blank">rednote</a></h3>
+        <h3><a href="https://www.xiaohongshu.com/user/profile/6784b288000000000403ca40" target="_blank">RedNote</a></h3>
       </div>
       <div class="social-item">
       <img src="/resources/icons/Bluesky.svg" width="40rem" style="padding-top: 5px; position: relative; top: -2px;"></img>
@@ -85,6 +85,10 @@ class SocialsList extends HTMLElement {
       <div class="social-item">
         <img src="/resources/icons/Furtrack.png" width="40rem"></img>
         <h3><a href="https://www.furtrack.com/user/VeeTHis" target="_blank">FurTrack</a></h3>
+      </div>
+      <div class="social-item">
+        <img src="/resources/icons/AnimePlanet.jpg" width="40rem"></img>
+        <h3><a href="https://www.anime-planet.com/users/VeeTHis" target="_blank">Anime Planet</a></h3>
       </div>
       <div class="social-item">
         <img src="/resources/icons/Roblox.svg" width="40rem"></img>
