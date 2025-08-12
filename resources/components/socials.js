@@ -91,8 +91,8 @@ class SocialsList extends HTMLElement {
         <h3><a href="https://www.anime-planet.com/users/VeeTHis" target="_blank">Anime Planet</a></h3>
       </div>
       <div class="social-item">
-        <img src="/resources/icons/Roblox.svg" width="40rem"></img>
-        <h3><a href="https://www.roblox.com/users/38524636/profile" target="_blank">Roblox</a></h3>
+        <img src="/resources/icons/Letterboxd.png" width="40rem"></img>
+        <h3><a href="https://letterboxd.com/VeeTHis/" target="_blank">Letterboxd</a></h3>
       </div>
     </div>
     `;
