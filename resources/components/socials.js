@@ -63,8 +63,8 @@ class SocialsList extends HTMLElement {
         <h3><a href="https://instagram.com/vee_this" target="_blank">Instagram</a></h3>
       </div>
       <div class="social-item">
-        <img src="/resources/icons/Xiaohongshu.svg" width="40rem"></img>
-        <h3><a href="https://www.xiaohongshu.com/user/profile/6784b288000000000403ca40" target="_blank">RedNote</a></h3>
+        <img src="/resources/icons/Threads.png" width="34.5rem" style="filter: invert(100%);"></img>
+        <h3><a href="https://www.threads.com/@vee_this" target="_blank">Threads</a></h3>
       </div>
       <div class="social-item">
       <img src="/resources/icons/Bluesky.svg" width="40rem" style="padding-top: 5px; position: relative; top: -2px;"></img>
@@ -79,8 +79,8 @@ class SocialsList extends HTMLElement {
       <h3 style="position: relative; top: -3px;"><b>@VeeTHis</b></h3>
       </div>
       <div class="social-item">
-        <img src="/resources/icons/GitHub.svg" width="40rem" style="filter: invert(100%);"></img>
-        <h3><a href="https://github.com/VeeTH" target="_blank">GitHub</a></h3>
+        <img src="/resources/icons/Xiaohongshu.svg" width="40rem"></img>
+        <h3><a href="https://www.xiaohongshu.com/user/profile/6784b288000000000403ca40" target="_blank">RedNote</a></h3>
       </div>
       <div class="social-item">
         <img src="/resources/icons/Furtrack.png" width="40rem"></img>
