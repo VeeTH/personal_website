@@ -7,25 +7,22 @@ class ButtonList extends HTMLElement {
     this.innerHTML = `
         <div class="js_marquee">
             <a href="https://obama.nekoweb.org/" target="_blank"><img src="https://obama.nekoweb.org/obbutton.png" alt="obama" style="padding-left: 50px;"></a> 
-            <!-- <a href="https://xtract.dev/" target="_blank"><img src="https://xtract.dev/buttons/button_space.png" alt="xtract's space"></a> -->
-            <a href="https://thinliquid.dev" target="_blank"><img src="https://thinliquid.dev/thnlqd.png" alt="thinliquid's button" /></a>
-            <!-- <a href="https://dimden.dev/" target="_blank"><img src="https://dimden.dev/services/images/88x31.gif"></a> -->
-            <!-- <a href="https://milkyway.moe/" target="_blank"><img src="https://milkyway.moe/milkybuttons/milkybtn.gif"></a> -->
+            <a href="https://kat.nekoweb.org" target="_blank"><img src="https://kat.nekoweb.org/buttons/button_katpink.png" alt="katspace"></a>
+            <a href="https://dimden.dev/" target="_blank"><img src="https://dimden.dev/services/images/88x31.gif"></a>
+            <a href="https://milkyway.moe/" target="_blank"><img src="https://milkyway.moe/milkybuttons/milkybtn.gif"></a>
             <a href="https://meteor.nekoweb.org/" target="_blank"><img src="https://meteor.nekoweb.org/button.gif"></a>
             <a href="https://max.nekoweb.org/" target="_blank"><img src="https://max.nekoweb.org/images/button.png" alt="max's apartment"></a> 
-            <!-- <a href="https://jeith.com/" target="_blank"><img src="https://neocities.jeith.com/jeith.gif" alt="jeith"></a> -->
+            <a href="https://jeith.com/" target="_blank"><img src="https://neocities.jeith.com/jeith.gif" alt="jeith"></a>
             <a href="https://boxy.neocities.org/" target="_blank"><img src="https://boxy.neocities.org/images/boxBut.png" alt="boxy"></a>
             <a href="https://sillyKitty136.neocities.org" target="_blank"><img src="https://sillyKitty136.neocities.org/Button.gif"></a>
             <a href="https://thesoupsite.neocities.org/" target="_blank" "><img src="https://thesoupsite.neocities.org/img/soupbutton2.gif" width="88px" height="31px"></a>
             <a href="https://skruffy64.neocities.org/" target="_blank"><img src="/resources/buttons/skruffy_64.gif"></a>
             <a href="https://cadnomori.neocities.org/" target="_blank"><img src="https://cadnomori.neocities.org/banners/yokobanner.png"></a>
             <a href="https://sleepycircus.neocities.org/" target="_blank"><img src="https://sleepycircus.neocities.org/button.gif"></a>
-            <!-- <a href="https://adilene.net/" target="_blank"><img src="https://adilene.net/images/sitebutton.gif"></a> -->
             <a href="https://ilovekazuha.nekoweb.org/" target="_blank"><img src="https://ilovekazuha.nekoweb.org/kazuhas/kazuhalink2.gif"></a>
             <a href="https://des.neocities.org/" target="_blank"><img src="/resources/buttons/des.gif"></a>
             <a href="https://freecatpics.nekoweb.org/" target="_blank"><img src="/resources/buttons/freecatpics.png"></a>
             <a href="https://modarchive.org/" target="_blank"><img src="/resources/buttons/modarchive.png"></a>
-            <a href="https://www.sheepit-renderfarm.com" target="_blank"><img src="/resources/buttons/sheepit.gif"></a>
             <a href="https://www.roblox.com/users/38524636/profile" target="_blank"><img src="/resources/buttons/roblox.gif"></a>
 
             <img src="/resources/buttons/queer-coded.png" style="padding-left: 50px;">
