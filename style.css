@@ -11,6 +11,21 @@
     }
   }
 
+@keyframes marquee {
+    0% {
+        transform: translateX(0); /* Pause */
+    }
+    2% {
+        transform: translateX(0);
+    }
+    98% {
+        transform: translateX(calc(-100% + 1200px)); /* Pause */
+    }
+    100% {
+        transform: translateX(calc(-100% + 1200px));
+    }
+}
+
 /* Main styling */
 body {
     background: fixed;
@@ -151,21 +166,12 @@ body {
     bottom: 11.75px;
     display: flex;
     gap: 4px;
-    animation: marquee 15s linear infinite alternate;
+    animation: marquee 14s linear infinite alternate;
 }
 
 .js_marquee img {
     object-fit: contain;
     display: block;
-}
-
-@keyframes marquee {
-    from {
-        transform: translateX(0);
-      }
-      to {
-        transform: translateX(calc(-100% + 1200px)); /* Moves left until last button is aligned */
-      }
 }
 
 .website_title {
