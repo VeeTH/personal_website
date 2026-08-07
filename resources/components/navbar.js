@@ -13,7 +13,7 @@ class NavigBar extends HTMLElement {
             <h3><a href="#" class="navbar-settings">Shrines</a></h3>
             <div class="dropdown-content">
               <h3><a href="/shrines/vocaloid.html">Vocaloid</a></h3>
-              <h3><a href="/under_construction.html">Genshin Impact</a></h3>
+              <h3><a href="/shrines/douma.html">Demon Slayer</a></h3>
             </div>
           </li> 
           <li><h3><a href="/projects.html">Projects</a></h3></li>
